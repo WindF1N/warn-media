@@ -31,7 +31,7 @@ function Root() {
                 </svg>
               </button>
           </div>
-          <div className={`items-center justify-between w-full sm:flex sm:w-auto sm:order-1 ${isOpened && "hidden"}`}>
+          <div className={`items-center justify-between w-full sm:flex sm:w-auto sm:order-1 ${!isOpened && "hidden"}`}>
             <ul className="flex flex-col p-4 sm:p-0 mt-4 border border-gray-100 rounded-lg sm:space-x-8 rtl:space-x-reverse sm:flex-row sm:mt-0 sm:border-0">
               <li className="block py-2 px-3 text-[13px] text-white rounded sm:p-0">
                 Կազմը
