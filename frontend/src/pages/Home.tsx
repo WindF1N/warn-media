@@ -1,11 +1,8 @@
-import { useNavigate } from "react-router-dom";
-
 import dogImage from "../assets/dog.png";
 import berriesImage from "../assets/berries.png";
 import berryImage from "../assets/berry.png";
 
 function Home() {
-  const navigate = useNavigate();
   return (
     <div className="flex flex-col min-h-[100vh]"> 
         <div className="absolute z-[-2] inset-0 w-[100vw] h-[110vh] bg-[url('/bg.png')] bg-cover bg-center flex justify-center items-center"></div>
