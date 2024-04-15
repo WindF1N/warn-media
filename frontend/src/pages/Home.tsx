@@ -33,7 +33,7 @@ function Home() {
                 </div>
             </div>
         </section>
-        <section className="relative flex flex-col items-center mt-[-5vh]">
+        <section className="relative flex flex-col items-center">
             <div className="max-sm:hidden absolute z-[-2] top-[-300px] left-[-600px] w-[600px] h-[600px] bg-gradient-to-b from-[#FF7056] to-[#FFBE18] blur-[300px]"></div>
             <div className="absolute z-[-1] top-[-300px] w-[600px] h-[600px] bg-[rgba(104,104,104,.5)] blur-[300px]"></div>
             <h2 className="sm:text-[64px] max-sm:text-[36px] text-white leading-[120%] text-center">Կազմը</h2>
