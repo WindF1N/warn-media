@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: 'Oldtimer';
-  src: url('fonts/Oldtimer.woff') format('woff');
+  src: url('fonts/Oldtimer.woff') format('woff'),
+        url('fonts/Oldtimer.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
