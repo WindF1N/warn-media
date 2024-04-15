@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Root from './Root.tsx';
+import Home from './pages/Home.tsx';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,7 +13,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
-    errorElement: <ErrorPage/>
+    errorElement: <ErrorPage/>,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+    ]
   },
 ]);
 
